@@ -1,0 +1,39 @@
+<!Doctype html>
+<html>
+<head>
+</head>
+<body>
+<style>
+h1{
+text-align:center;
+color:navy;
+font-size:40px;
+text-decoration:underline;
+}
+
+</style>
+
+
+
+<h1>ADDITION</h1>
+<p>Enter values in the fields, then click "Submit" to submit the form:</p>
+
+<form id="form">
+  First input:<br>
+  <input type="number" name="first_number"><br><br>
+  Second input:<br>
+  <input type="number" name="second_number"><br><br>
+  <input type="submit" onclick="myFunction()" value="Submit">
+</form>
+
+<p style="text-align:center;font-size:30px">The sum is ...</p>
+
+</body>
+
+<script>
+function myFunction() {
+    document.getElementById("form").submit();
+}
+</script>
+
+</html>
